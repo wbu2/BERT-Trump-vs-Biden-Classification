@@ -11,8 +11,8 @@ Since BERT is pre-trained, implementing it for this binary text classification p
 * Model tested on 500 Tweets from Joe Biden from  11/19/2019 to 2/2/2020 and 223 Tweets from Donald Trump from 4/24/2020 to 5/12/2020
 * Tweets were scraped using [Tweepy](http://docs.tweepy.org/en/latest/#)
 
-<img src="BidenWordCloud.png" alt="BidenCloud" width="400"/>
-<img src="TrumpWordCloud.png" alt="TrumpCloud" width="400"/>
+<img src="https://github.com/wbu2/BERT-Trump-vs-Biden-Classification/blob/master/Files/BidenWordCloud.png" width="400"/>
+<img src="https://github.com/wbu2/BERT-Trump-vs-Biden-Classification/blob/master/Files/TrumpWordCloud.png" width="400"/>
 
 * Based on the most common words from tweets scraped from Trump's and Biden's timeline, it is pretty clear who each word cloud belongs to. Political affiliation isn't very obvious from looking at the word clouds themselves, however the word clouds show a clear distinction between Trump and Biden. Looking at Trump's word cloud, there are phrases he often uses such as "Fake News" or "great". This shows that this data is fit to be used for a binary classification problem between Trump and Biden.
 
